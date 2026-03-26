@@ -5,12 +5,14 @@
 <title>Smart Event Dashboard</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <h1>Smart Event Dashboard</h1>
 
 <div class="dashboard">
 
+  <!-- Add Event Section -->
   <div class="card">
     <h3>Add New Event</h3>
 
@@ -32,14 +34,20 @@
 
     <button id="addEventBtn">Add Event</button>
   </div>
-  
-<div class="card">
-  <h3>My Events</h3>
-  <button id="clearEventsBtn">Clear All Events</button>
 
-  
+
+  <div class="card">
+    <h3>My Events</h3>
+
+    <button id="clearEventsBtn">Clear All Events</button>
+
+    <div id="eventsContainer"></div>
+  </div>
+
+</div>
 
 
 <script src="script.js"></script>
+
 </body>
 </html>
